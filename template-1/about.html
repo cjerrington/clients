@@ -47,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Overflow</a>
+                <a class="navbar-brand" href="index.html">Your Company</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -98,40 +98,38 @@
             <h1>We are Overflow</h1>
         </div>
         
-        <div class="row">
-            <div class="col-lg-12">
-                <img src="images/worship.jpg" class="center img-responsive" />
-            </div>
+        <div class="col-lg-12">
+            <img src="images/worship.jpg" class="center img-responsive" />
         </div>
 
         <!-- About Us -->
         <div class="row">
-            <div class="col-sm-4 col-md-4">
-                <h2>We are Overflow</h2>
-                <p>OVERFLOW lives as a body of believers, loving people and seeing lives transformed to for Jesus. At OVERFLOW it's ALL about Jesus. He is the center of everything we do and we live to glorify Him.</p>
-            </div>
-            <div class="col-sm-4 col-md-4">
+            <div class="col-lg-12">
+                <p>
+                OVERFLOW lives as a body of believers, loving people and seeing lives transformed to for Jesus. At OVERFLOW it's ALL about Jesus. He is the center of everything we do and we live to glorify Him.
+                </p>
+
                 <h2>OUR PASSION</h2>
-                <p>OVERFLOW is one of three Sunday morning worship services at Indiana Ave Baptist Church, yet specifically focused on reaching and empowering college students and young people with the Gospel. We are deeply committed to developing fully devoted disciples of Jesus. At OVERFLOW our main desire is that our people will LIVE for Jesus, LEARN from Jesus, and LEAD others to Jesus. We are deeply passionate about college students and have been committed to reaching university campuses throughout Lubbock for more than 20 years. With a rich history of college ministry at IABC we are all the more committed to be that authentic community you'll need throughout your college career and beyond. Our hope is that this community of believers will become family for you... Your home away from home.
+                <p>
+                OVERFLOW is one of three Sunday morning worship services at Indiana Ave Baptist Church, yet specifically focused on reaching and empowering college students and young people with the Gospel. We are deeply committed to developing fully devoted disciples of Jesus. At OVERFLOW our main desire is that our people will LIVE for Jesus, LEARN from Jesus, and LEAD others to Jesus. We are deeply passionate about college students and have been committed to reaching university campuses throughout Lubbock for more than 20 years. With a rich history of college ministry at IABC we are all the more committed to be that authentic community you'll need throughout your college career and beyond. Our hope is that this community of believers will become family for you... Your home away from home.
                 </p>
-            </div>
-            <div class="col-sm-4 col-md-4">
+
                 <h2>WHEN & WHERE</h2>
-                <p>OVERFLOW meets every Sunday morning at 11AM in the North Campus Sanctuary of IABC. Join us for incredible worship and a challenging sermon this Sunday! You'll also want to connect with one of our many Community Groups meeting Monday through Thursday each week. Find one that fits your personality and schedule.
+                <p>
+                OVERFLOW meets every Sunday morning at 11AM in the North Campus Sanctuary of IABC. Join us for incredible worship and a challenging sermon this Sunday! You'll also want to connect with one of our many Community Groups meeting Monday through Thursday each week. Find one that fits your personality and schedule.
                 </p>
+
             </div>
-        </div>
 
-        <hr />
+            <hr />
 
-        <div class="row">
              <div class="col-lg-12">
-                <p class="text-center">LEARN from Jesus. LIVE for Jesus. LEAD others to Jesus.</p>
+                <p>LEARN from Jesus. LIVE for Jesus. LEAD others to Jesus.</p>
             </div>
+
+
         </div>
-
-
-
+        <!-- /.row -->
 
         <hr>
 
@@ -152,34 +150,11 @@
 
     <!-- Add hover effects to dropdown -->
     <script>
-    var isMobile = {
-        Android: function() {
-            return navigator.userAgent.match(/Android/i);
-        },
-        BlackBerry: function() {
-            return navigator.userAgent.match(/BlackBerry/i);
-        },
-        iOS: function() {
-            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-        },
-        Opera: function() {
-            return navigator.userAgent.match(/Opera Mini/i);
-        },
-        Windows: function() {
-            return navigator.userAgent.match(/IEMobile/i);
-        },
-        any: function() {
-            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-        }
-    };
-
     $(function() {
-        if(!isMobile.any()) {
-            $(".dropdown").hover(
-                function(){ $(this).addClass('open') },
-                function(){ $(this).removeClass('open') }
-            );
-        }
+        $(".dropdown").hover(
+            function(){ $(this).addClass('open') },
+            function(){ $(this).removeClass('open') }
+        );
 
         $('.navbar .dropdown > a').click(function(){
 			location.href = this.href;
