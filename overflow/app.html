@@ -56,6 +56,7 @@
                     <li class="dropdown">
 					  <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span</a>
 					  <ul class="dropdown-menu" role="menu">
+                        <li><a href="about.html">About Us</a></li>
 						<li><a href="#">Location & Transpotation</a></li>
 						<li><a href="#">Staff</a></li>
 						<li><a href="#">Foundation Photos</a></li>
@@ -107,11 +108,6 @@
 
         </div>
 
-
-
-
-
-
         <hr>
 
         <!-- Footer -->
@@ -131,33 +127,12 @@
 
     <!-- Add hover effects to dropdown -->
     <script>
-    var isMobile = {
-        Android: function() {
-            return navigator.userAgent.match(/Android/i);
-        },
-        BlackBerry: function() {
-            return navigator.userAgent.match(/BlackBerry/i);
-        },
-        iOS: function() {
-            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-        },
-        Opera: function() {
-            return navigator.userAgent.match(/Opera Mini/i);
-        },
-        Windows: function() {
-            return navigator.userAgent.match(/IEMobile/i);
-        },
-        any: function() {
-            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-        }
-    };
-
     $(function() {
 
-        $('.navbar .dropdown > a').click(function(){
+        /*$('.navbar .dropdown > a').click(function(){
 			location.href = this.href;
 		});
-
+        */
 		$('a[href^="http://"],a[href^="https://"]')
         .not("[href*='"+location.host+"']")
         .click(function(e) {
