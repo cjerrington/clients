@@ -136,7 +136,7 @@
         <!-- Intro Content -->
         <div class="row">
             <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive img-circle" src="img/me.jpg" alt="Clayton Errington" width="50%" height="50%">
             </div>
             <div class="col-md-6">
                 <h2>About Clayton Errington</h2>
@@ -262,9 +262,19 @@
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
-    })
+    });
     </script>
-
+    <script>
+      jQuery(function($) {
+         $('a[href^="http://"],a[href^="https://"]')
+        .not("[href*='"+location.host+"']")
+        .click(function(e) {
+          var url = this.href;
+          e.preventDefault();
+           window.open(url);
+        })
+      });
+  </script>
 </body>
 
 </html>
