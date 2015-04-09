@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clayton Errington</title>
+    <description>Web Developer from Lubbock, TX</description>
+    <link>http://claytonerrington.com/clients/template-2</link>
+    <atom:link href="http://claytonerrington.com/clients/template-2/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>HTML Codes</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://claytonerrington.com/html-codes/&quot;&gt;HTML Codes&lt;/a&gt; is a responsive search service for anyone who is looking for the special character codes for symbols. &lt;/p&gt;
+
+&lt;p&gt;I wrote this in just a few hours after gathering all the specialty codes. I was interested in learning more about &lt;a href=&quot;https://angularjs.org/&quot;&gt;AngularJS&lt;/a&gt; and creating a search field. The first inspiration for this project came from the &lt;a href=&quot;http://lubbockmedguide.com&quot;&gt;Lubbock Med Guide&lt;/a&gt;. I started working on a full MySQL and PHP search feature. This got to be a lot of hard work making the query search each field and displaying the required information. &lt;/p&gt;
+
+&lt;p&gt;I found that JSON and AngularJS can provide a quick responsive way to manage a database like amount of information. The JSON file for this project has 1,263 lines of codes in it. Since these &amp;quot;databases&amp;quot; are static text files they load extremely fast. With the use of AngularJS it makes the output seem like it was hard coded into the page. &lt;/p&gt;
+
+&lt;p&gt;The nice functioning about this is that I can make changes to the JSON file and not have to worry about messing any other code up. Editing is simple and each area of the app has its own purpose and won&amp;#39;t be over written in another keeping everything separate.&lt;/p&gt;
+
+&lt;p&gt;Feel free to link to, use, update, correct anything you may find. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/cjerrington/html-codes/archive/gh-pages.zip&quot;&gt;Download&lt;/a&gt; or &lt;a href=&quot;https://github.com/cjerrington/html-codes&quot;&gt;View Project Source&lt;/a&gt; as you wish. &lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Mar 2015 00:00:00 -0500</pubDate>
+        <link>http://claytonerrington.com/clients/template-2/blog/2015/03/12/HTML-Codes</link>
+        <guid isPermaLink="true">http://claytonerrington.com/clients/template-2/blog/2015/03/12/HTML-Codes</guid>
+      </item>
+    
+      <item>
+        <title>Copyright Code in PHP</title>
+        <description>&lt;p&gt;When making websites many want a copyright year date in their footer. I wrote a simple PHP copyright function that simply gets the year and then calculates if the year given is the current year or not. &lt;/p&gt;
+
+&lt;p&gt;If the year is this year it will output &lt;code&gt;Copyright 2015&lt;/code&gt;. If there is a difference in years the function will out put &lt;code&gt;Copyright 2010 - 2015&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is a set it and forget it kind of script. Once you start using it you still need to put this years date as your start date when calling the function. I hope this is very simple to use and hope it helps you in your projects. Below you will find the Gist file where you can download, edit, upgrade, or whatever you&amp;#39;d like. &lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cjerrington/a11c95a1cdeabd8cdc69.js&quot;&gt;&lt;/script&gt;
+</description>
+        <pubDate>Tue, 10 Mar 2015 00:00:00 -0500</pubDate>
+        <link>http://claytonerrington.com/clients/template-2/blog/2015/03/10/Copyright-Code-in-PHP</link>
+        <guid isPermaLink="true">http://claytonerrington.com/clients/template-2/blog/2015/03/10/Copyright-Code-in-PHP</guid>
+      </item>
+    
+      <item>
+        <title>How I code</title>
+        <description>&lt;p&gt;There are a lot of things that make a coder and programmer who they are. When I started coding small projects I soon realized I needed to stay organized. &lt;/p&gt;
+
+&lt;p&gt;When I satrt a project I always set up an includes, images, and scripts folder. When writing mostly PHP web applications and websites this comes in handy. All the main pages go in the root and the header, footer, and config files if needed go in the includes folder. &lt;/p&gt;
+
+&lt;p&gt;The navigattion is always a section I have to include seperately. Some projects the header file gets larger or depending on where the navigation is placed it is better to have the navigation separte. This mitigates the unneccesary edits to other parts of the web page. &lt;/p&gt;
+
+&lt;p&gt;So a simple index file would look like: &lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;inc/header.php&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;inc/nav.php&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;x&quot;&gt;&amp;lt;!-- Where the body text will go --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;x&quot;&gt;&amp;lt;p&amp;gt;Hello, World!&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;inc/footer.php&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I enjoy writing and learning more about web programming. When I started I tried ASP and PHP, and PHP was much easier to start with and read. A lot of people ask, what is the best way to learn? My response, read a lot try to understand and start small. &lt;/p&gt;
+
+&lt;p&gt;As you read and see how others program you learn good habits and can correct the bad ones you may see. The more you read and start to write, the better you become. There are many resources that I have used in the past between books and many websites. GitHub has been another good source to find new applications and see how and what other people have done. &lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Mar 2015 00:00:00 -0500</pubDate>
+        <link>http://claytonerrington.com/clients/template-2/blog/2015/03/09/How-I-Code</link>
+        <guid isPermaLink="true">http://claytonerrington.com/clients/template-2/blog/2015/03/09/How-I-Code</guid>
+      </item>
+    
+      <item>
+        <title>WP Helper Master</title>
+        <description>&lt;p&gt;This is a WordPress Plugin that I developed that disables, enables, and enhances WP and other settings. &lt;/p&gt;
+
+&lt;p&gt;This plugin is hosted at &lt;a href=&quot;https://wordpress.org/plugins/wp-helper-master/&quot;&gt;WordPress.org&lt;/a&gt; and &lt;a href=&quot;https://github.com/cjerrington/WP-Helper&quot;&gt;GitHub.com&lt;/a&gt;. More information can be found &lt;a href=&quot;http://claytonerrington.com/WP-Helper/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Feature list includes:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WP Clean Up: Clean up WP header.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RSD Links - Remove the link to the Really Simple Discovery&lt;/li&gt;
+&lt;li&gt;Canonical Links - Remove Canonical Links&lt;/li&gt;
+&lt;li&gt;Windows Live Writer manifest file - Removes the link to the Windows Live Writer manifest file.&lt;/li&gt;
+&lt;li&gt;Short Link - Removes the short links.&lt;/li&gt;
+&lt;li&gt;WP Generator - Removes the WordPress version i.e. - 4.0.2.&lt;/li&gt;
+&lt;li&gt;Adjacent Posts - Removes the relational links for the posts adjacent to the current post.&lt;/li&gt;
+&lt;li&gt;Index Link - Removes the index link.&lt;/li&gt;
+&lt;li&gt;Parent and Post links - Removes the Parent and Post Link link.&lt;/li&gt;
+&lt;li&gt;RSS feeds for post, category and comments - Removes the post, category and comments RSS feeds.&lt;/li&gt;
+&lt;li&gt;Display WP Version? - Removes the WP Version.&lt;/li&gt;
+&lt;li&gt;Disable RSS Feeds - Disables RSS Feeds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Performance: Help speed up WP with these options&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Enable GZIP compression - This will speed up your WordPress website drastically and reduces bandwidth usage as well.&lt;/li&gt;
+&lt;li&gt;Remove Query Version - Remove the version query string from scripts and styles - allows for better caching. i.e. jquery.js?ver=1.8&lt;/li&gt;
+&lt;li&gt;Prevent SSL Check when XMLRPC is not utilized? - Prevents WordPress from testing SSL capability on domain.com/xmlrpc.php?rsd when XMLRPC not in use&lt;/li&gt;
+&lt;li&gt;Disable Auto-Formatting - Disable Auto-Formatting in Content and Excerpt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Security: Add more security to WP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hide login form error messages - Hide login form error messages&lt;/li&gt;
+&lt;li&gt;Remove WordPress version number - Remove WordPress version number&lt;/li&gt;
+&lt;li&gt;Disable XMLRPC - Disable XMLRPC&lt;/li&gt;
+&lt;li&gt;Post Revisions true false 3 5 - Set the maximum number of post revisions unless the constant is already set in wp-config.php.&lt;/li&gt;
+&lt;li&gt;True = enable post revisions. False = disables post revisions. Or 3 or 5 post revisions.&lt;/li&gt;
+&lt;li&gt;Disable Auto Linking - Disable Auto Linking of URLs in comments&lt;/li&gt;
+&lt;li&gt;Disable self-ping - Disable self-ping&lt;/li&gt;
+&lt;li&gt;Remove lost password link - Remove lost password link if you do not want people trying to reset your password or theirs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Admin Modifications: Add more security to WP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Change the greeting for the Admin Page. Change the standard Howdy to something you like.&lt;/li&gt;
+&lt;li&gt;All Settings - Add new Admin menu item &amp;quot;All Settings&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;A sample of the Settings page is below:&lt;/strong&gt;
+&lt;img src=&quot;/images/settings-page.jpg&quot; alt=&quot;Settings Page&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sample code is below for the file&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// ++++++++++++++++ WP CLEANUP +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get_option&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wphm_cononical_links&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove_action&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;wp_head&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;rsd_link&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get_option&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wphm_manifest_file&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove_action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wp_head&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wlwmanifest_link&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get_option&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wphm_short_link&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove_action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wp_head&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wp_shortlink_wp_head&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get_option&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wphm_wp_generator&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove_action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wp_head&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wp_generator&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get_option&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wphm_adjacent_posts&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;remove_action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wphm_wp_head&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;adjacent_posts_rel_link_wp_head&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;remove_action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wphm_wp_head&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;adjacent_posts_rel_link&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get_option&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wphm_index_rel_link&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove_action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wp_head&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;index_rel_link&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get_option&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wphm_post_rel_link&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;remove_action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wp_head&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;parent_post_rel_link&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;remove_action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;wp_head&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;start_post_rel_link&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Mon, 16 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://claytonerrington.com/clients/template-2/blog/2015/02/16/WP-Helper</link>
+        <guid isPermaLink="true">http://claytonerrington.com/clients/template-2/blog/2015/02/16/WP-Helper</guid>
+      </item>
+    
+      <item>
+        <title>Redesign of the Lubbock Map website</title>
+        <description>&lt;p&gt;At &lt;a href=&quot;http://wordpub.com/&quot;&gt;Word Publications&lt;/a&gt; they wanted to have a website that empasised the advertisers on the printed map. &lt;/p&gt;
+
+&lt;p&gt;I took the current design they had and implimented Google Maps and &lt;a href=&quot;http://lifeinthegrid.com/labs/mapit/&quot;&gt;jQuery MapIt&lt;/a&gt; to place the locations on the interactive map.&lt;/p&gt;
+
+&lt;p&gt;MapIt can run off XML or JSON to control all the places in the map. I decided to try something new and use JSON. It was easier to use and understand when creating a new project. &lt;/p&gt;
+
+&lt;p&gt;Check it out now at &lt;a href=&quot;http://lubbockmap.com&quot;&gt;lubbockmap.com&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://claytonerrington.com/clients/template-2/blog/2015/02/13/Website-Redseign</link>
+        <guid isPermaLink="true">http://claytonerrington.com/clients/template-2/blog/2015/02/13/Website-Redseign</guid>
+      </item>
+    
+      <item>
+        <title>You&#39;re up and running!</title>
+        <description>&lt;p&gt;I saw this new way to host your website and its using Github and Jekyll. &lt;/p&gt;
+
+&lt;p&gt;I started this with the &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot;&gt;Jekyll Now repository&lt;/a&gt; on GitHub. This made the set up process a lot easier and would reccomend it to anyone who wants to do the same. &lt;/p&gt;
+
+&lt;p&gt;Soon I will add my own domain name to this and add some content from my poertfolio. &lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://claytonerrington.com/clients/template-2/blog/2015/02/13/Hello-World</link>
+        <guid isPermaLink="true">http://claytonerrington.com/clients/template-2/blog/2015/02/13/Hello-World</guid>
+      </item>
+    
+  </channel>
+</rss>
