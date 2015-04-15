@@ -29,6 +29,14 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+$('a[href^="http://"],a[href^="https://"]')
+	.not("[href*='"+location.host+"']")
+	.click(function(e) {
+	  var url = this.href;
+	  e.preventDefault();
+	   window.open(url);
+});
+
 // Google Maps Scripts
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
