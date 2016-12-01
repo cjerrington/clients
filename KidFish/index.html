@@ -43,13 +43,13 @@
 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="#home">Home</a></li>
+                        <li class="scroll"><a href="#home">Home</a></li>
                         <li class="scroll"><a href="#about">About</a></li>
+                        <li class="scroll"><a href="#register">Register</a></li>
                         <li class="scroll"><a href="#portfolio">Sponsors</a></li>
                         <li class="scroll"><a href="#testimonial">Stories</a></li>
-                        <li class="scroll"><a href="#register">Register</a></li>
                         <li class="scroll"><a href="#get-in-touch">Contact</a></li>
-                        <li class="scroll"><a href="#pricing">Photo Gallery</a></li>
+                        <li class="scroll"><a href="https://www.facebook.com/kidfishlubbock/photos/" target="_blank">Photo Gallery</a></li>
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -66,7 +66,8 @@
                                 <div class="carousel-content">
                                     <h2>Lubbock's <span>4th Annual</span> KidsFish</h2>
                                     <p>The Lubbock Lions Club is excited for the next Lubbock KidsFish!</p>
-                                    <a class="btn btn-primary btn-lg" href="#register">Register Today!</a>
+                                    <!--a class="btn btn-primary btn-lg" href="#register">Register Today!</a-->
+                                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Register Today!</button>
                                 </div>
                             </div>
                         </div>
@@ -81,13 +82,15 @@
                                 <div class="carousel-content">
                                     <h2>Lubbock Lions <span>KidFish</span> sponsored by Cabela's</h2>
                                     <p>Will be on April 29th, 2017 from 7 AM - 1 PM</p>
-                                    <a class="btn btn-primary btn-lg" href="#register">Register Today!</a>
+                                    <!--a class="btn btn-primary btn-lg" href="#register">Register Today!</a-->
+                                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Register Today!</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div><!--/.item-->
+
             <div class="item" style="background-image: url(images/slider/bg2.jpg);">
                <div class="slider-inner">
                    <div class="container">
@@ -96,7 +99,8 @@
                                <div class="carousel-content">
                                    <h2>Lubbock Lions KidFish is <span>FREE</span></h2>
                                    <p>and available to all youth 0 - 18 years old! </p>
-                                   <a class="btn btn-primary btn-lg" href="#register">Register Today!</a>
+                                   <!--a class="btn btn-primary btn-lg" href="#register">Register Today!</a-->
+                                   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Register Today!</button>
                                </div>
                            </div>
                        </div>
@@ -114,7 +118,8 @@
             </div>
             <div>
                 <div class="col-md-4 center-block text-center" style="float:none">
-                    <a class="btn btn-primary btn-lg" href="#register">Register Now!</a>
+                    <!--a class="btn btn-primary btn-lg" href="#register">Register Now!</a-->
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Register Today!</button>
                 </div>
             </div>
         </div>
@@ -657,6 +662,28 @@
             </div>
         </div>
     </footer><!--/#footer-->
+
+    <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Registration</h4>
+      </div>
+      <div class="modal-body">
+        <p>Registration will be open March 1st, 2016.</p>
+        <p>Please check back later for more updates.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
